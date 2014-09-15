@@ -57,6 +57,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\component.css" />
+    <Content Include="CSS\demo.css" />
+    <Content Include="CSS\normalize.css" />
+    <Content Include="CSS\styles.sass" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -66,8 +70,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\main.css" />
+    <Content Include="CSS\styles.css" />
     <Content Include="index.html" />
+    <Content Include="JS\classie.js" />
     <Content Include="JS\main.js" />
+    <Content Include="JS\mainben.js" />
+    <Content Include="JS\menu.js" />
+    <Content Include="JS\modernizr.custom.25376.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
